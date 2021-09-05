@@ -6,18 +6,13 @@
 
 The feedback function of the linear feedback shift register is generally as follows
 
-
-```math
- a_{i+n}=\sum\limits_{j=1}^{n}c_ja_{i+n-j})
-```
-
-
+$a_{i+n}=\sum\limits_{j=1}^{n}c_ja_{i+n-j})$
 
 Where $c_j$ is in a finite field $F_q$.
 
 
 Since the linear space is a linear transformation, we can know that this linear transformation is
-
+z
 
 $$ \left[ \begin{matrix} 0   & 0      & \cdots & 0 & c_n     \\ 1   & 0      & \cdots & 0 & c_{n-1}  \\ 0   & 1      & \cdots & 0 & c_{n-2}\\\vdots & \vdots & \ddots & \vdots \\ 0   & 0      & \cdots & 1 & c_1     \\ \end{matrix} \right] $$
 

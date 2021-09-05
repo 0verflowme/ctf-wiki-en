@@ -7,7 +7,7 @@
 The feedback function of the linear feedback shift register is generally as follows
 
 
-$a_{i+n}=\sum\limits_{j=1}^{n}c_ja_{i+n-j}$
+![formula](https://render.githubusercontent.com/render/math?math=a_{i+n}=\sum\limits_{j=1}^{n}c_ja_{i+n-j})
 
 
 
